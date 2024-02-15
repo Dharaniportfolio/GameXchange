@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="./task3.css" />
+  </head>
+  <body>
+    <h1>Rock Paper Scissor</h1>
+
+    <header class="container">
+      <button onclick="playgame('rock')">👊</button>
+      <button onclick="playgame('paper')">🖐️</button>
+      <button onclick="playgame('scissor')">✌️</button>
+    </header>
+
+    <div id="player">Player:</div>
+    <div id="computer">computer:</div>
+    <button class="retry" onclick="again()">Again!</button>
+    <div id="check">Tie</div>
+
+    <footer>
+      <h3 class="win">Wins:</h3>
+      <h3 class="loose">Loses:</h3>
+      <h3 class="tries">Tries:</h3>
+    </footer>
+  </body>
+  <script src="./task3.js"></script>
+</html>
